@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Login from './Components/LoginPage'
+import SignUp from './Components/SignUp'
 import './App.css';
 import { Route, Link, Switch } from 'react-router-dom'
 
@@ -27,7 +28,7 @@ function App() {
             <Login />
           </Route>
           <Route path='/create'>
-            
+            <SignUp />
           </Route>
           {/* <Route path='/logout'>
             <Logout/>

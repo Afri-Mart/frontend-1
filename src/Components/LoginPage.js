@@ -6,13 +6,11 @@ import axios from 'axios'
 
 const credentials = {
     username: '',
-    phoneNumber: '',
     password: '',
 }
 
 const initialErrors = {
     username: '',
-    phoneNumber: '',
     password: '',
 }
 
@@ -54,14 +52,7 @@ function Login (props) {
                         onChange={handleChange} 
                     />
                     </label>
-                    <label> Phone Number: 
-                        <input
-                            type="text"
-                            name="phonenumber"
-                            placeholder="Enter your phone number"
-                            onChange={handleChange} 
-                        />
-                    </label>
+                    
                     <label className="login-input"> Password:
                         <input
                             type="password" 
@@ -71,7 +62,7 @@ function Login (props) {
                         />
                     </label>
                     <button className="btn">Login</button>
-                    <p>Don't have an account? <Link className="link" to="/signup">Create new account</Link></p>
+                    <p>Don't have an account? <Link className="link" to="/create">Create new account</Link></p>
                 </form>
                 </center>
         </div>
