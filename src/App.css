@@ -1,3 +1,5 @@
+/* Navigation Styles */
+
 .App-logo {
   height: 10vh;
 }
@@ -16,4 +18,45 @@ nav .links {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* Plants Page Styles */
+
+.plant-page-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1%;
+}
+.all-plants {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.plant-wrapper {
+  display: flex;
+  width: 50%;
+  border: solid 1px black;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.plant-image-wrapper img {
+  height: 210px;
+}
+.plant-info-wrapper {
+  width: 70%;
+  margin-left: 1%;
+  padding-left: 2.5%;
+}
+.plant-info-wrapper button {
+  padding: 2%;
+  margin: 1%;
+  margin-left: 5%;
+  background-color: white;
+  border-color: green;
+  color: green;
+}
+.plant-info-wrapper button:hover {
+  background-color: green;
+  color: white;
+  border-color: white;
 }
