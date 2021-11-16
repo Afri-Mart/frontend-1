@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import Login from './Components/LoginPage'
 import SignUp from './Components/SignUp'
+import Plants from './Components/PlantList'
 import './App.css';
 import { Route, Link, Switch } from 'react-router-dom'
 
@@ -34,7 +35,7 @@ function App() {
             <Logout/>
           </Route> */}
           <Route path='/plants'>
-            
+            <Plants />
           </Route>
           <Route path='/'>
          
