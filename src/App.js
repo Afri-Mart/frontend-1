@@ -6,11 +6,12 @@ import "./App.css";
 import { Route, Link, Switch } from "react-router-dom";
 import Welcome from "./Components/Home";
 import AddaPlant from "./Components/AddaPlant";
+import { Nav } from "./Components/StyledComponents";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <nav>
+        <Nav>
           <div className="logo">
             <img src={logo} className="App-logo" alt="logo" />
             {/* will edit when logo created */}
@@ -22,8 +23,8 @@ function App() {
             {/* <Link to='/logout'>Logout</Link> */}
             <Link to="/AddaPlant">Add a Plant</Link>
             <Link to="/plants">Plant List</Link>
-          </div>                 
-        </nav>
+          </div>
+        </Nav>
       </header>
       <Switch>
         <Route path="/login">

@@ -7,7 +7,7 @@ export const FormDiv = styled(Form)`
   width: 70%;
   padding: 1.5rem 0;
   margin: 3rem auto;
-  background-color: #d4d4aa;
+  background-color: #47624f;
   color: #000;
   border: 1px solid black;
   border-radius: 0.5rem;
@@ -30,10 +30,10 @@ export const Input = styled(Field)`
   border: none;
   padding: 0.5rem;
   font-size: 1.5rem;
-  background-color: #666633;
+  background-color: #447604;
   color: #fff;
   &::placeholder {
-    color: #fff;
+    color: #9ffcdf;
   }
 `;
 
@@ -64,4 +64,50 @@ export const Error = styled.p`
   padding: 5px 10px;
   margin: -8px auto -1rem;
   z-index: 3;
+`;
+export const Nav = styled.nav`
+  background-color: #7ca7ad;
+`;
+export const Herocont = styled.div`
+  position: relative;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+`;
+export const Herovideocont = styled.div`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+`;
+export const Herovideo = styled.video`
+  width: 100%;
+  height: 100%;
+  object-fit: cover; ;
+`;
+export const Herotextcont = styled.div`
+  padding: 256px 32px;
+  position: relative;
+  color: white;
+`;
+export const Herotitle = styled.h1`
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 0;
+`;
+export const Herosub = styled.p`
+  font-size: 24px;
+  margin-top: 0;
+  font-style: italic;
+`;
+export const Herovidoverlay = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #47624f;
+
+  mix-blend-mode: multiply;
 `;
