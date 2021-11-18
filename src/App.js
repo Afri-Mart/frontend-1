@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./Assets/wplogo.png";
 import Login from "./Components/LoginPage";
 import SignUp from "./Components/SignUp";
 import Plants from "./Components/PlantList";

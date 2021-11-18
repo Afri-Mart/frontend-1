@@ -16,7 +16,7 @@ const AddAPlant = ({ errors, touched, status }) => {
 
   return (
     <>
-      <Heading>Add a Plant!</Heading>
+      <Heading>Add a Plant</Heading>
       <FormDiv>
         {touched.plant_name && errors.plant_name && (
           <Error className="error">{errors.plant_name}</Error>
