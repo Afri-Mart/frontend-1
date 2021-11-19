@@ -7,6 +7,7 @@ import { Route, Link, Switch } from "react-router-dom";
 import Welcome from "./Components/Home";
 import AddaPlant from "./Components/AddaPlant";
 import { Nav } from "./Components/StyledComponents";
+import PlantList from "./Components/PlantList";
 function App() {
   return (
     <div className="App">
@@ -37,7 +38,7 @@ function App() {
             <Logout/>
           </Route> */}
         <Route path="/plants">
-          <Plants />
+          <PlantList />
         </Route>
         <Route path="/AddaPlant">
           <AddaPlant />
